@@ -1,0 +1,54 @@
+@import url(./css/container.css);
+@import url(./css/header.css);
+@import url(./css/navbar.css);
+@import url(./css/header-content.css);
+@import url(./css/second-section.css);
+@import url(./css/third-section.css);
+@import url(./css/forth-section.css);
+@import url(./css/fifth-section.css);
+@import url(./css/sixth-section.css);
+@import url(./css/seventh-section.css);
+@import url(./css/eighth-section.css);
+@import url(./css/menu-bottom.css);
+@import url(./css/footer.css);
+
+@import url(./css/mobile/container-mobile.css);
+@import url(./css/mobile/navbar-mobile.css);
+@import url(./css/mobile/header-content-mobile.css);
+@import url(./css/mobile/second-section-mobile.css);
+@import url(./css/mobile/third-section-mobile.css);
+@import url(./css/mobile/q-content.css);
+@import url(./css/mobile/wentar-section.css);
+@import url(./css/mobile/presale-detail.css);
+@import url(./css/mobile/howtobuy-mobile.css);
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url(./font/century-gothic.ttf);
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: block;
+}
+
+@media screen and (max-width: 375px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}

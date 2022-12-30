@@ -1,0 +1,137 @@
+.eighth-section {
+    /* margin-top: 8.33vw; */
+    padding-left: 9.06vw;
+    padding-right: 9.06vw;
+    position: relative;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.eighth-section .howtobuy {
+    display: flex;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 1.8vw;
+    line-height: 2.8;
+
+
+    color: #F7F5F9;
+}
+
+.eighth-section .flow-purchase {
+    display: grid;
+    grid-template-columns: 26.61vw 26.61vw 26.61vw;
+    gap: 1.04vw;
+}
+
+.eighth-section .flow-purchase .card-flow {
+    position: relative;
+    width: 26.61vw;
+    height: 14vw;
+
+    background: #171B29;
+    border-radius: 1.3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eighth-section .flow-purchase .card-flow .card-flow-body {
+    width: 13.6vw;
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+    color: #FFFFFF;
+}
+
+.eighth-section .flow-purchase .card-flow .card-flow-number {
+    position: absolute;
+    top: 01.56vw;
+    left: 01.56vw;
+    font-weight: 700;
+    font-size: 0.625vw;
+    line-height: 1.25vw;
+
+    color: #FFFFFF;
+
+    opacity: 0.3;
+}
+
+
+.eighth-section .flow-purchase .card-flow-center {
+    position: relative;
+    margin-top: 4vw;
+    width: 26.61vw;
+    height: 14vw;
+
+    background: #171B29;
+    border-radius: 1.3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eighth-section .flow-purchase .card-flow-center .card-flow-body {
+    width: 13.6vw;
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+    color: #FFFFFF;
+}
+
+.eighth-section .flow-purchase .card-flow-center .card-flow-number {
+    position: absolute;
+    top: 01.56vw;
+    left: 01.56vw;
+    font-weight: 700;
+    font-size: 0.625vw;
+    line-height: 1.25vw;
+
+    color: #FFFFFF;
+
+    opacity: 0.3;
+}
+
+.eighth-section .arrow-circle1 {
+    position: absolute;
+    top: 12.30vw;
+    left: 34vw;
+    width: 4.47vw;
+    height: 4.47vw;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1;
+    
+    background: #0F1320;
+}
+.eighth-section .arrow-circle2 {
+    position: absolute;
+    top: 12.30vw;
+    right: 33vw;
+    width: 4.47vw;
+    height: 4.47vw;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1;
+
+    background: #0F1320;
+}
+
+.chevron {
+    width: 1.25vw;
+}

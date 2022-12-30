@@ -1,0 +1,230 @@
+.q-content {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto;
+    font-family: "Century Gothic";
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 40px;
+}
+
+.q-content .content-map {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.q-content .content-map .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.q-content .content-map .title .circle1 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.q-content .content-map .title .circle2 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #2278D4;
+    box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.q-content .content-map .title .circle3 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFD100;
+
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.q-content .content-map .title .circle4 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #E20613;
+    box-shadow: 0px 15px 25px rgba(226, 6, 19, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.q-content .content-map .title .year-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.q-content .content-map .title .dot1 {
+    width: 12px;
+    height: 12px;
+
+    background: #22A75D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+
+.q-content .content-map .title .dot2 {
+    width: 12px;
+    height: 12px;
+
+    background: #2278D4;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+
+.q-content .content-map .title .dot3 {
+    width: 12px;
+    height: 12px;
+
+    background: #FFD100;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+
+.q-content .content-map .title .dot4 {
+    width: 12px;
+    height: 12px;
+
+    background: #E20613;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+
+.q-content .content-map .title .year-number {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.q-content .content-map .body {
+    display: grid;
+    grid-template-columns: 14px auto;
+    gap: 11px;
+}
+
+.q-content .content-map .body .body-number1 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    /* identical to box height, or 283% */
+
+
+    color: #22A75D;
+
+}
+
+.q-content .content-map .body .body-number2 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    /* identical to box height, or 283% */
+
+
+    color: #2278D4;
+
+}
+
+.q-content .content-map .body .body-number3 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    /* identical to box height, or 283% */
+
+
+    color: #FFD100;
+
+}
+
+.q-content .content-map .body .body-number4 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    /* identical to box height, or 283% */
+
+
+    color: #E20613;
+
+}
+
+.q-content .content-map .body .body-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    padding-left: 1.09vw;
+    /* or 189% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.wrapper-holdphone {
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.holdphone-mobile {
+    width: 90%;
+}

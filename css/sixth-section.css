@@ -1,0 +1,103 @@
+.sixth-section {
+    margin-top: 9.21vw;
+    position: relative;
+    padding-left: 9.01vw;
+    padding-right: 9.01vw;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sixth-section .left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.56vw;
+    width: 33.12vw;
+}
+
+.sixth-section .left-section .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.25vw;
+}
+
+.sixth-section .left-section .title .title-img {
+    width: 2.74vw;
+    height: 1.71vw;
+}
+
+.sixth-section .left-section .title .tagline {
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 2.81vw;
+
+    color: #FFFFFF;
+}
+
+.sixth-section .left-section .paragraph1 {
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.sixth-section .left-section .petik {
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+    /* or 150% */
+
+
+    color: #FFD100;
+
+    opacity: 0.6;
+}
+
+.sixth-section .left-section .paragraph2 {
+    font-size: 0.833vw;
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.sixth-section .left-section .paragraph6 {
+    display: flex;
+    gap: 0.72vw;
+}
+
+.sixth-section .left-section .button-more {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 7.65vw;
+    height: 2.5vw;
+
+    border: 0.10vw solid #22A75D;
+    border-radius: 2.7vw;
+
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+    
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.sixth-section .right-section {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.sixth-section .right-section .img-holdphone {
+    width: 46.4vw;
+}

@@ -1,0 +1,36 @@
+.menu-bottom {
+    margin-top: 10.9vw;
+    padding-left: 9.06vw;
+    padding-right: 9.06vw;
+
+    display: flex;
+    justify-content: center;
+    gap: 3.75vw;
+}
+
+.menu-bottom .menu-btn {
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 1.04vw;
+    
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.menu-bottom .slash {
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 1.04vw;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    opacity: 0.16;
+}

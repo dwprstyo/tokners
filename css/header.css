@@ -1,0 +1,12 @@
+.header {
+   width: 100%;
+   box-sizing: border-box;
+   overflow: hidden; 
+}
+
+.upper-lightleak {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}

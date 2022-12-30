@@ -1,0 +1,227 @@
+.second-section-mobile {
+    margin-top: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.second-section-mobile .desktop-bg {
+    position: relative;
+    width: 207%;
+    align-self: center;
+    left: 16vw;
+}
+
+.second-section-mobile .tagline {
+    position: relative;
+    width: 226px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 33px;
+    padding-right: 33px;
+    /* or 112% */
+
+    letter-spacing: -0.026vw;
+
+    /* color/white */
+
+    color: #FFFFFF;
+}
+
+.second-section-mobile .title {
+    box-sizing: border-box;
+    margin-top: 79px;
+    padding-left: 33px;
+    padding-right: 33px;
+    width: 311px;
+    height: 96px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    letter-spacing: -0.2px;
+
+    color: #FFFFFF;
+}
+
+.second-section-mobile .body {
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding-left: 33px;
+    padding-right: 33px;
+    width: 311px;
+    height: 112px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #8B8B8B;
+}
+
+.second-section-mobile .button {
+    width: 147px;
+    height: 48px;
+
+    margin-top: 47px;
+    margin-left: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    border-radius: 52px;
+}
+
+.second-section-mobile .number {
+    margin-top: 64px;
+    margin-left: 30px;
+    width: 310px;
+    height: 310px;
+
+    border-radius: 50%;
+    background: #06080E;
+    box-shadow: 0px 23px 50px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-section-mobile .number-inside {
+    font-weight: 700;
+    font-size: 132px;
+    line-height: 120px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.second-section-mobile .number-lorem {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+
+    letter-spacing: 0.01vw;
+
+    color: #FFFFFF;
+}
+
+.navigation {
+    position: relative;
+    margin-top: 32px;
+    width: 100%;
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.navigation .left-section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navigation .nav-arrow-left {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .nav-arrow-right {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #D1AD0A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropdown1 {
+    width: 144px;
+    height: 48px;
+    border-radius: 8px;
+
+    background-color: black;
+    color: white;
+
+    font-family: "Century Gothic";
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .dropdown .number {
+    color: white;
+} */
+
+#dropdown1 .arrow-dropdown {
+    scale: 100%;
+}
+
+#dropdown2 {
+    width: 144px;
+    height: 48px;
+    border-radius: 8px;
+
+    background-color: black;
+    color: white;
+
+    font-family: "Century Gothic";
+
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .dropdown .number {
+    color: white;
+} */
+
+#dropdown2 .arrow-dropdown {
+    scale: 100%;
+}
+
+#dropdown-content {
+    position: absolute;
+    z-index: 1;
+    top: 37px;
+    right: 23px;
+    color: white;
+    width: 144px;
+    height: 240px;
+    border-radius: 8px;
+
+    background-color: black;
+
+    font-family: "Century Gothic";
+
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+
+    /* display: flex; */
+    flex-direction: column;
+}

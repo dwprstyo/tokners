@@ -1,0 +1,12 @@
+.navbar-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-bottom: 49px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-mobile .logo {
+    height: 25px;
+}

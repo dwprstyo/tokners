@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    background-color: #0F1320;
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Century Gothic";
+}

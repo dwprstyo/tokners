@@ -1,0 +1,279 @@
+.seventh-section {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    margin-top: -5vw;
+}
+
+.seventh-section .bgvector {
+    width: 100%;
+}
+
+.seventh-section .content {
+    position: absolute;
+    width: 100%;
+    top: 24vw;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.04vw;
+}
+
+.seventh-section .content .title {
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 2.81vw;
+
+    color: #FFFFFF;
+}
+
+.seventh-section .content .presale-content {
+    display: grid;
+    grid-template-columns: 26.61vw 26.61vw 26.61vw;
+    gap: 1.04vw;
+}
+
+.seventh-section .content .presale-content .card-presale {
+    background-color: #ffffff;
+    width: 26.61vw;
+    height: 30.46vw;
+    border-radius: 1.30vw;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.64vw;
+}
+
+.seventh-section .content .presale-content .card-presale-center {
+    background-color: #ffffff;
+    width: 26.61vw;
+    height: 30.46vw;
+    border-radius: 1.30vw;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.64vw;
+
+    margin-top: 4.1vw;
+}
+
+.card-presale .circle {
+    width: 4.27vw;
+    height: 4.27vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 1.35VW;
+    line-height: 1.87VW;
+
+    color: #0F1320;
+}
+
+.card-presale .phase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.46vw;
+}
+
+.card-presale .phase .first {
+    color: #191B21;
+    font-weight: 700;
+    font-size: 1.66vw;
+    line-height: 2.81vw;
+}
+
+.card-presale .phase .second {
+    color: #191B21;
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 1.04vw;
+}
+
+.card-presale .price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #191B21;
+    gap: 0.46vw;
+}
+
+.card-presale .price .big-price {
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.card-presale .price .title-price {
+    font-weight: 400;
+    font-size: 0.833vw;
+    line-height: 1.04vw;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.card-presale .price .number-price {
+    font-weight: 700;
+    font-size: 0.833vw;
+    line-height: 1.04vw;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.card-presale-center .circle {
+    width: 4.27vw;
+    height: 4.27vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 1.35VW;
+    line-height: 1.87VW;
+
+    color: #0F1320;
+}
+
+.circle-center {
+    width: 4.27vw;
+    height: 4.27vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #2278D4;
+    box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 1.35VW;
+    line-height: 1.87VW;
+
+    color: #0F1320;
+}
+.circle-end {
+    width: 4.27vw;
+    height: 4.27vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFD100;
+
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 1.35VW;
+    line-height: 1.87VW;
+
+    color: #0F1320;
+}
+
+.card-presale-center .phase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.46vw;
+}
+
+.card-presale-center .phase .first {
+    color: #191B21;
+    font-weight: 700;
+    font-size: 1.66vw;
+    line-height: 2.81vw;
+}
+
+.card-presale-center .phase .second {
+    color: #191B21;
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 1.04vw;
+}
+
+.card-presale-center .price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #191B21;
+    gap: 0.46vw;
+}
+
+.card-presale-center .price .big-price {
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.card-presale-center .price .title-price {
+    font-weight: 400;
+    font-size: 0.833vw;
+    line-height: 1.04vw;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.card-presale-center .price .number-price {
+    font-weight: 700;
+    font-size: 0.833vw;
+    line-height: 1.04vw;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}

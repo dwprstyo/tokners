@@ -1,0 +1,1164 @@
+#second-section1 {
+
+    margin-top: 15vw;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#second-section1 .path-bg {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    z-index: -1;
+}
+
+#second-section1 .desktop-bg {
+    position: absolute;
+    width: 75%;
+    top: 3.5vw;
+    right: 2vw;
+    z-index: -1;
+}
+
+#second-section1 .tagline {
+    position: relative;
+    width: 47vw;
+    left: 6.92vw;
+    font-weight: 700;
+    font-size: 3.33vw;
+    line-height: 3.75vw;
+    /* or 112% */
+
+    letter-spacing: -0.026vw;
+
+    /* color/white */
+
+    color: #FFFFFF;
+}
+
+#second-section1 .year {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4.68vw;
+    margin-top: 7.96vw;
+    left: 6.92vw;
+    height: 32vw;
+}
+
+#second-section1 .year .year-content {
+    position: relative;
+    display: flex;
+    gap: 3.17vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+#second-section1 .year .year-content .line {
+    width: 1.25vw;
+    height: 0.20vw;
+    background-color: #FFFFFF;
+}
+
+#second-section1 .year .year-content .year-number {
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#second-section1 .year-content .point-line1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 6.77vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section1 .year-content .point-line2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section1 .year-content .point-line3 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section1 .year-content .point-line4 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+
+#second-section1 .year-content .point-line5 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+
+#second-section1 .content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    left: 6.92vw;
+    margin-top: 2.2vw;
+}
+
+#second-section1 .content .detail {
+    display: flex;
+    gap: 4.06vw;
+}
+
+#second-section1 .content .detail .line {
+    height: 4.16vw;
+    width: 0.10vw;
+
+    background-color: #F1B2CC;
+    border-radius: 1px;
+}
+
+#second-section1 .content .detail .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+}
+
+#second-section1 .content .detail .description .tagline {
+    width: 24.3vw;
+    font-weight: 700;
+    font-size: 1.66vw;
+
+    letter-spacing: -0.02vw;
+    line-height: 2vw;
+
+    color: #FFFFFF;
+
+    left: 0;
+}
+
+#second-section1 .content .detail .description .body {
+    width: 24vw;
+    font-weight: 400;
+    font-size: 0.93vw;
+    line-height: 1.66vw;
+
+    color: #8B8B8B;
+}
+
+#second-section1 .content .detail .description .button {
+    width: 7.8vw;
+    height: 2.5vw;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    border-radius: 2.7vw;
+
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+
+    color: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#second-section1 .content .number {
+    width: 20.9vw;
+    height: 20.9vw;
+
+    border-radius: 50%;
+    background: #06080E;
+    box-shadow: 0px 23px 50px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second-section1 .content .number .number-inside {
+    font-weight: 700;
+    font-size: 10.41vw;
+    line-height: 8.7vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#second-section1 .content .number .number-lorem {
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.66vw;
+
+    letter-spacing: 0.01vw;
+
+    color: #FFFFFF;
+}
+
+
+
+
+/* ========================== */
+/* ========================== */
+
+
+
+
+
+#second-section2 {
+
+    margin-top: 15vw;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#second-section2 .path-bg {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    z-index: -1;
+}
+
+#second-section2 .desktop-bg {
+    position: absolute;
+    width: 75%;
+    top: 3.5vw;
+    right: 2vw;
+    z-index: -1;
+}
+
+#second-section2 .tagline {
+    position: relative;
+    width: 47vw;
+    left: 6.92vw;
+    font-weight: 700;
+    font-size: 3.33vw;
+    line-height: 3.75vw;
+    /* or 112% */
+
+    letter-spacing: -0.026vw;
+
+    /* color/white */
+
+    color: #FFFFFF;
+}
+
+#second-section2 .year {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4.68vw;
+    margin-top: 7.96vw;
+    left: 6.92vw;
+    height: 32vw;
+}
+
+#second-section2 .year .year-content {
+    position: relative;
+    display: flex;
+    gap: 3.17vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+#second-section2 .year .year-content .line {
+    width: 1.25vw;
+    height: 0.20vw;
+    background-color: #FFFFFF;
+}
+
+#second-section2 .year .year-content .year-number {
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#second-section2 .year-content .point-line1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section2 .year-content .point-line2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 6.77vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section2 .year-content .point-line3 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section2 .year-content .point-line4 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section2 .year-content .point-line5 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+
+#second-section2 .content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    left: 6.92vw;
+    margin-top: 2.2vw;
+}
+
+#second-section2 .content .detail {
+    display: flex;
+    gap: 4.06vw;
+}
+
+#second-section2 .content .detail .line {
+    height: 4.16vw;
+    width: 0.10vw;
+
+    background-color: #F1B2CC;
+    border-radius: 1px;
+}
+
+#second-section2 .content .detail .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+}
+
+#second-section2 .content .detail .description .tagline {
+    width: 24.3vw;
+    font-weight: 700;
+    font-size: 1.66vw;
+
+    letter-spacing: -0.02vw;
+    line-height: 2vw;
+
+    color: #FFFFFF;
+
+    left: 0;
+}
+
+#second-section2 .content .detail .description .body {
+    width: 24vw;
+    font-weight: 400;
+    font-size: 0.93vw;
+    line-height: 1.66vw;
+
+    color: #8B8B8B;
+}
+
+#second-section2 .content .detail .description .button {
+    width: 7.8vw;
+    height: 2.5vw;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    border-radius: 2.7vw;
+
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+
+    color: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#second-section2 .content .number {
+    width: 20.9vw;
+    height: 20.9vw;
+
+    border-radius: 50%;
+    background: #06080E;
+    box-shadow: 0px 23px 50px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second-section2 .content .number .number-inside {
+    font-weight: 700;
+    font-size: 10.41vw;
+    line-height: 8.7vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#second-section2 .content .number .number-lorem {
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.66vw;
+
+    letter-spacing: 0.01vw;
+
+    color: #FFFFFF;
+}
+
+
+
+/* ====================== */
+/* ====================== */
+
+
+
+#second-section3 {
+
+    margin-top: 15vw;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#second-section3 .path-bg {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    z-index: -1;
+}
+
+#second-section3 .desktop-bg {
+    position: absolute;
+    width: 75%;
+    top: 3.5vw;
+    right: 2vw;
+    z-index: -1;
+}
+
+#second-section3 .tagline {
+    position: relative;
+    width: 47vw;
+    left: 6.92vw;
+    font-weight: 700;
+    font-size: 3.33vw;
+    line-height: 3.75vw;
+    /* or 112% */
+
+    letter-spacing: -0.026vw;
+
+    /* color/white */
+
+    color: #FFFFFF;
+}
+
+#second-section3 .year {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4.68vw;
+    margin-top: 7.96vw;
+    left: 6.92vw;
+    height: 32vw;
+}
+
+#second-section3 .year .year-content {
+    position: relative;
+    display: flex;
+    gap: 3.17vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+#second-section3 .year .year-content .line {
+    width: 1.25vw;
+    height: 0.20vw;
+    background-color: #FFFFFF;
+}
+
+#second-section3 .year .year-content .year-number {
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#second-section3 .year-content .point-line1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section3 .year-content .point-line2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section3 .year-content .point-line3 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 6.77vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section3 .year-content .point-line4 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section3 .year-content .point-line5 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+
+#second-section3 .content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    left: 6.92vw;
+    margin-top: 2.2vw;
+}
+
+#second-section3 .content .detail {
+    display: flex;
+    gap: 4.06vw;
+}
+
+#second-section3 .content .detail .line {
+    height: 4.16vw;
+    width: 0.10vw;
+
+    background-color: #F1B2CC;
+    border-radius: 1px;
+}
+
+#second-section3 .content .detail .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+}
+
+#second-section3 .content .detail .description .tagline {
+    width: 24.3vw;
+    font-weight: 700;
+    font-size: 1.66vw;
+
+    letter-spacing: -0.02vw;
+    line-height: 2vw;
+
+    color: #FFFFFF;
+
+    left: 0;
+}
+
+#second-section3 .content .detail .description .body {
+    width: 24vw;
+    font-weight: 400;
+    font-size: 0.93vw;
+    line-height: 1.66vw;
+
+    color: #8B8B8B;
+}
+
+#second-section3 .content .detail .description .button {
+    width: 7.8vw;
+    height: 2.5vw;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    border-radius: 2.7vw;
+
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+
+    color: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#second-section3 .content .number {
+    width: 20.9vw;
+    height: 20.9vw;
+
+    border-radius: 50%;
+    background: #06080E;
+    box-shadow: 0px 23px 50px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second-section3 .content .number .number-inside {
+    font-weight: 700;
+    font-size: 10.41vw;
+    line-height: 8.7vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#second-section3 .content .number .number-lorem {
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.66vw;
+
+    letter-spacing: 0.01vw;
+
+    color: #FFFFFF;
+}
+
+
+
+
+/* ================= */
+
+
+
+
+
+
+
+
+#second-section4 {
+
+    margin-top: 15vw;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#second-section4 .path-bg {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    z-index: -1;
+}
+
+#second-section4 .desktop-bg {
+    position: absolute;
+    width: 75%;
+    top: 3.5vw;
+    right: 2vw;
+    z-index: -1;
+}
+
+#second-section4 .tagline {
+    position: relative;
+    width: 47vw;
+    left: 6.92vw;
+    font-weight: 700;
+    font-size: 3.33vw;
+    line-height: 3.75vw;
+    /* or 112% */
+
+    letter-spacing: -0.026vw;
+
+    /* color/white */
+
+    color: #FFFFFF;
+}
+
+#second-section4 .year {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4.68vw;
+    margin-top: 7.96vw;
+    left: 6.92vw;
+    height: 32vw;
+}
+
+#second-section4 .year .year-content {
+    position: relative;
+    display: flex;
+    gap: 3.17vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+#second-section4 .year .year-content .line {
+    width: 1.25vw;
+    height: 0.20vw;
+    background-color: #FFFFFF;
+}
+
+#second-section4 .year .year-content .year-number {
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#second-section4 .year-content .point-line1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section4 .year-content .point-line2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section4 .year-content .point-line3 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section4 .year-content .point-line4 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 6.77vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+.year-content .point-line5 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+
+#second-section4 .content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    left: 6.92vw;
+    margin-top: 2.2vw;
+}
+
+#second-section4 .content .detail {
+    display: flex;
+    gap: 4.06vw;
+}
+
+#second-section4 .content .detail .line {
+    height: 4.16vw;
+    width: 0.10vw;
+
+    background-color: #F1B2CC;
+    border-radius: 1px;
+}
+
+#second-section4 .content .detail .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+}
+
+#second-section4 .content .detail .description .tagline {
+    width: 24.3vw;
+    font-weight: 700;
+    font-size: 1.66vw;
+
+    letter-spacing: -0.02vw;
+    line-height: 2vw;
+
+    color: #FFFFFF;
+
+    left: 0;
+}
+
+#second-section4 .content .detail .description .body {
+    width: 24vw;
+    font-weight: 400;
+    font-size: 0.93vw;
+    line-height: 1.66vw;
+
+    color: #8B8B8B;
+}
+
+#second-section4 .content .detail .description .button {
+    width: 7.8vw;
+    height: 2.5vw;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    border-radius: 2.7vw;
+
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+
+    color: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#second-section4 .content .number {
+    width: 20.9vw;
+    height: 20.9vw;
+
+    border-radius: 50%;
+    background: #06080E;
+    box-shadow: 0px 23px 50px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second-section4 .content .number .number-inside {
+    font-weight: 700;
+    font-size: 10.41vw;
+    line-height: 8.7vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#second-section4 .content .number .number-lorem {
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.66vw;
+
+
+    letter-spacing: 0.01vw;
+
+    color: #FFFFFF;
+}
+
+
+
+/* ======================== */
+
+
+#second-section5 {
+    margin-top: 15vw;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#second-section5 .path-bg {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    z-index: -1;
+}
+
+#second-section5 .desktop-bg {
+    position: absolute;
+    width: 75%;
+    top: 3.5vw;
+    right: 2vw;
+    z-index: -1;
+}
+
+#second-section5 .tagline {
+    position: relative;
+    width: 47vw;
+    left: 6.92vw;
+    font-weight: 700;
+    font-size: 3.33vw;
+    line-height: 3.75vw;
+    /* or 112% */
+
+    letter-spacing: -0.026vw;
+
+    /* color/white */
+
+    color: #FFFFFF;
+}
+
+#second-section5 .year {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4.68vw;
+    margin-top: 7.96vw;
+    left: 6.92vw;
+    height: 32vw;
+}
+
+#second-section5 .year .year-content {
+    position: relative;
+    display: flex;
+    gap: 3.17vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+#second-section5 .year .year-content .line {
+    width: 1.25vw;
+    height: 0.20vw;
+    background-color: #FFFFFF;
+}
+
+#second-section5 .year .year-content .year-number {
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1.25vw;
+
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#second-section5 .year-content .point-line1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section5 .year-content .point-line2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section5 .year-content .point-line3 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section5 .year-content .point-line4 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 0;
+    height: 0.83vw;
+    cursor: pointer;
+}
+#second-section5 .year-content .point-line5 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 6.77vw;
+    height: 0.83vw;
+    cursor: pointer;
+}
+
+#second-section5 .content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    left: 6.92vw;
+    margin-top: 2.2vw;
+}
+
+#second-section5 .content .detail {
+    display: flex;
+    gap: 4.06vw;
+}
+
+#second-section5 .content .detail .line {
+    height: 4.16vw;
+    width: 0.10vw;
+
+    background-color: #F1B2CC;
+    border-radius: 1px;
+}
+
+#second-section5 .content .detail .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+}
+
+#second-section5 .content .detail .description .tagline {
+    width: 24.3vw;
+    font-weight: 700;
+    font-size: 1.66vw;
+
+    letter-spacing: -0.02vw;
+    line-height: 2vw;
+
+    color: #FFFFFF;
+
+    left: 0;
+}
+
+#second-section5 .content .detail .description .body {
+    width: 24vw;
+    font-weight: 400;
+    font-size: 0.93vw;
+    line-height: 1.66vw;
+
+    color: #8B8B8B;
+}
+
+#second-section5 .content .detail .description .button {
+    width: 7.8vw;
+    height: 2.5vw;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    border-radius: 2.7vw;
+
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+
+    color: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#second-section5 .content .number {
+    width: 20.9vw;
+    height: 20.9vw;
+
+    border-radius: 50%;
+    background: #06080E;
+    box-shadow: 0px 23px 50px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second-section5 .content .number .number-inside {
+    font-weight: 700;
+    font-size: 10.41vw;
+    line-height: 8.7vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#second-section5 .content .number .number-lorem {
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.66vw;
+
+    letter-spacing: 0.01vw;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,182 @@
+.presale-detail {
+    width: 100%;
+    height: 768px;
+    position: relative;
+    color: white;
+
+    font-family: "Century Gothic";
+}
+
+.bg-presale {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.presale-detail .title {
+    position: relative;
+    top: 105px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.presale-detail .presale-content-wrapper {
+    position: relative;
+    top: 125px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.presale-content-wrapper .presale-content {
+    width: 1065px;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.presale-detail .card-presale {
+    background-color: #ffffff;
+    width: 335px;
+    height: 445px;
+    border-radius: 25px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.presale-detail .card-presale .circle1 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.presale-detail .card-presale .circle2 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #2278D4;
+    box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.presale-detail .card-presale .circle3 {
+    width: 82px;
+    height: 82px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+
+    border-radius: 50% 50% 50% 15%;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #0F1320;
+}
+
+.presale-detail .card-presale .phase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.presale-detail .card-presale .phase .first {
+    color: #191B21;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+}
+
+.presale-detail .card-presale .phase .second {
+    color: #191B21;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.presale-detail .card-presale .price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #191B21;
+    gap: 20px;
+}
+
+.presale-detail .card-presale .price .big-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.presale-detail .card-presale .price .title-price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}
+
+.presale-detail .card-presale .price .number-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+}

@@ -1,0 +1,127 @@
+.howtobuy-mobile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Century Gothic";
+
+    gap: 10px;
+}
+
+.howtobuy-mobile .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #ffff;
+}
+
+.howtobuy-mobile .arrow {
+    position: absolute;
+    top: 270px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.howtobuy-mobile .arrow2 {
+    position: absolute;
+    top: 500px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background: #0F1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howtobuy-mobile .arrow .arrowimg {
+    width: 100%px;
+    transform: rotate(90deg);
+}
+.howtobuy-mobile .arrow2 .arrowimg {
+    width: 100%px;
+    transform: rotate(90deg);
+}
+
+.howtobuy-mobile .content {
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 335px;
+    height: 216px;
+
+    background: #171B29;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 30px;
+
+    gap: 20px;
+}
+
+.howtobuy-mobile .content .number {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.3;
+}
+
+.howtobuy-mobile .content .body {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+
+    color: #FFFFFF;
+}
+
+.logofooter {
+    display: flex;
+    margin-top: 64px;
+    justify-content: center;
+}
+
+.mobile .icon-sclmedia {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inicon-sclmedia {
+    width: 48px;
+}
+
+.credit-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile .credit {
+    width: 233px;
+}
+.mobile .credit2 {
+    width: 148px;
+}

@@ -1,0 +1,81 @@
+.forth-section {
+    margin-top: 6.25vw;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    box-sizing: border-box;
+}
+
+.forth-section .left-section {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+.forth-section .left-section .img-left-section {
+    width: 50vw;
+}
+
+.forth-section .right-section {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.forth-section .right-section .img-right-section {
+    position: absolute;
+    top: 0;
+    width: 50vw;
+    z-index: -1;
+}
+
+.forth-section .right-section .content {
+    position: absolute;
+    top: 15.41vw;
+    right: 11vw;
+    left: 7.44vw;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.56vw;
+}
+
+.forth-section .right-section .content .tagline {
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 2.81vw;
+    /* identical to box height, or 112% */
+
+
+    color: #0F1320;
+}
+
+.forth-section .right-section .content .sub-tagline {
+    font-weight: 700;
+    font-size: 0.833vw;
+    line-height: 1.04;
+    /* identical to box height, or 125% */
+
+
+    color: #0F1320;
+
+    opacity: 0.6;
+}
+
+.forth-section .right-section .content .body {
+    font-weight: 400;
+    font-size: 0.833vw;
+    line-height: 1.25vw;
+    /* or 150% */
+
+
+    color: #0F1320;
+
+    opacity: 0.6;
+}

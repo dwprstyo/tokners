@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+.navbar .left-section {
+    display: flex;
+    gap: 4vw;
+}
+
+.navbar .left-section .logo {
+    width: 9.7vw;
+}
+
+.navbar .left-section .menu {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.navbar .left-section .menu p {
+    color: white;
+    font-weight: 700;
+    font-size: 0.72vw;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar .right-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 0.72vw;
+    gap: 1.5vw;
+}
+
+.navbar .right-section div {
+    cursor: pointer;
+}
+
+.navbar .sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.65vw;
+    height: 2.5vw;
+    border: 0.1vw solid #22A75D;
+    border-radius: 2.7vw;
+}
+
+.navbar .sign-up:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.65vw;
+    height: 2.5vw;
+    border: 0.1vw solid #22A75D;
+    background-color: #22A75D;
+    border-radius: 2.7vw;
+    transition: 0.7s;
+}

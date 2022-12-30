@@ -1,0 +1,56 @@
+.footer {
+    margin-top: 6.25vw;
+    margin-bottom: 6.25vw;
+    padding-left: 9.06vw;
+    padding-right: 9.06vw;
+
+    display: grid;
+    grid-template-columns: 26.61vw 26.61vw 26.61vw;
+    gap: 0.75vw;
+}
+
+.footer .left-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+
+.footer .left-section .logo-footer {
+    width: 10.7vw;
+}
+
+.footer .center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75vw;
+    /* border: 2px solid white; */
+}
+
+.footer .center-section .icon-sclmedia {
+    width: 2.6vw;
+    cursor: pointer;
+}
+
+.footer .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer .credit {
+    width: 12.1vw;
+}
+
+.footer .credit2 {
+    width: 7.7vw;
+}
+
+.btm-lightleak {
+    position: absolute;
+    width: 100%;
+    top: 369vw;
+    z-index: -1;
+}
