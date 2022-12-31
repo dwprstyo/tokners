@@ -22,6 +22,8 @@ let readMore = document.getElementById("wentar-read-more");
 let hide = document.getElementById("wentar-hide");
 let expand = document.getElementById("expand-wentar")
 
+let menuMobile = document.getElementById("menu-mobile")
+
 document.getElementById("dropdown1").onclick = function() {
         drpContent.style.display = "flex";
         document.getElementById("dropdown1").style.display = "none";
@@ -31,6 +33,21 @@ document.getElementById("dropdown2").onclick = function() {
         drpContent.style.display = "none";
         document.getElementById("dropdown1").style.display = "flex";
         document.getElementById("dropdown2").style.display = "none";
+}
+
+document.getElementById("logo").onclick = function() {
+  menuMobile.style.display = "block"
+
+  setTimeout(() => {
+    menuMobile.style.left = "0px"
+  }, 1);
+}
+document.getElementById("x").onclick = function() {
+  menuMobile.style.left = "-375px"
+  
+  setTimeout(() => {
+    menuMobile.style.display = "block"
+  }, 500);
 }
 
 readMore.onclick = function() {

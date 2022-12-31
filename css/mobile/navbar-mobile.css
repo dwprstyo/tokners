@@ -10,3 +10,7 @@
 .navbar-mobile .logo {
     height: 25px;
 }
+
+.navbar-mobile #logo {
+    height: 25px;
+}

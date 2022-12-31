@@ -1,5 +1,6 @@
 .container-mobile {
     /* width: 375px; */
+    position: relative;
     box-sizing: border-box;
     overflow: hidden;
     font-family: "Century Gothic";
